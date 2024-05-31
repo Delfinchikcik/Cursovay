@@ -2,27 +2,27 @@
   <q-page class="container_bg">
     <div class="container">
       <div class="q-pa-md row items-start q-gutter-md">
-        <q-card class="my-card" flat bordered v-for="(card, index) in sights" :key="index" :id="'sight-' + index">
+        <q-card class="my_card" flat bordered v-for="(card, index) in sights" :key="index" :id="'sight-' + index">
           <q-img class="card_img" :src= card.img />
           <q-card-section>
-            <div class="text-h3 q-mt-sm q-mb-xs indent">{{card.title}}</div>
+            <div class="text-h4 q-mt-sm q-mb-xs indent">{{card.title}}</div>
             <div class="text-h5 indent">
               {{card.description}}
             </div>
             <div class="text-h5 text-bold text-right">{{ card.addres }}</div>
           </q-card-section>
             <q-space />
-            <q-list bordered class="rounded-borders text-h4 bg">
+            <q-list bordered class="rounded-borders text-h5 bg">
           <q-expansion-item
             expand-separator
             icon="more_horiz"
             label="Узнать больше"
            >
             <q-card class="q-pa-md">
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                 {{ card.text }}
               </q-card-section>
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                 {{ card.text2 }}
               </q-card-section>
             </q-card>
@@ -34,7 +34,7 @@
             label="Как добраться?"
           >
             <q-card class="q-pa-md">
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                {{ card.map }}
               </q-card-section>
             </q-card>
@@ -47,7 +47,7 @@
       <p class="aside_title">Знаковые места</p>
       <q-separator size="3px" color="black" width="90%" class="q-mx-auto"/>
       <q-list>
-        <q-item
+        <q-item class="aside_item"
           v-for="(card, index) in sights"
           :key="'link-' + index"
           clickable
@@ -73,7 +73,7 @@ const sights = [
         text: 'Здесь увлекательно совершать пешие прогулки наслаждаясь чистым горным воздухом и приятным хвойным ароматом можжевельника, апельсиновых и лимонных деревьев, отдыхая от яркого летнего солнца в тени густых крон. По распоряжению русского князя С.М. Воронцова здание стали строить в стиле Людовика XIII по проекту французского архитектора Э. Бушара, поэтому очертания дворца должны были напоминать рыцарский замок. Однако в 1881 года Бушар скончался, не успев окончить проект. В 1889 году новым владельцем становится Александр III, который пригласил закончить строительство замка архитектора М. Месмахера.',
         text:'Архитектор приложил немало сил и мастерства для того, чтобы замок стал по-настоящему царским. Он увеличил террасы, расширил галереи, украсил фасады изящной лепниной и ажурным орнаментом. Теперь замок стал похож на терем. После смерти Александра III замок перешел к Николаю II, но замок не стал резиденцией и большую часть времени пустовал. В замке сохранились интерьеры той эпохи, являющиеся частью постоянной экспозиции.',
         map: 'С центра города можно добраться на автобусах 100, 144 и троллейбусах 3, 42. Доехать до остановки "Массандра разворотное кольцо" и далее пойти пешком вдоль дороги к дворцу. Также можно доехать вызвав такси',
-        addres: ' п. г. т. Массандра, Симферопольское ш., д. 13.' 
+        addres: ' пгт Массандра, Симферопольское ш., д. 13.' 
     },
     {
         img: '\ЯлтаСлайдер4.png',
@@ -181,29 +181,12 @@ const  scrollToCard = (index) => {
 </script>
 
 <style scoped>
-.my-card {
+.my_card {
   width: 100%;
   padding: 10px;
 }
 .card_img{
   max-height: 600px;
-}
-.aside{
-  width: 14vw;
-  position: fixed;
-  top: 13%;
-  left: .3%;
-  font-size: 1rem;
-  border-radius: 20px;
-  padding: 1rem;
-  background-color: #a8d0e071;
-  text-align: center;
-}
-.aside_title{
-  font-size: 1.1rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: .1rem;
 }
 
 </style>

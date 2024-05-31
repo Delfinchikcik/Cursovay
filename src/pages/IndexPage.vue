@@ -27,7 +27,7 @@
         </div>
         <q-separator class="separator" color="black" size="6px" spaced="12px" />
         <q-card-section >
-          <div class="text-h4 text-center q-mb-md">
+          <div class="text-h5 text-center q-mb-md">
             Добро пожаловать в Ялту — жемчужину Крыма, утопающую в зелени гор и
             ласкаемую теплыми водами Черного моря. Этот уютный и живописный
             город, расположенный на южном берегу Крыма, является одним из самых
@@ -41,20 +41,20 @@
         <p class="text-h4 q-pt-md text-center text-bold">
           Что делает Ялту особенной?
         </p>
-        <q-list bordered class="rounded-borders text-h4 bg">
+        <q-list bordered class="rounded-borders text-h5 bg">
           <q-expansion-item
             expand-separator
             icon="nature_people"
             label="Природнае красоты"
            >
             <q-card class="q-pa-md">
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                 Море и пляжи: Ялта гордится своими чистыми пляжами и кристально
                 прозрачной водой. Отдых на морском побережье подарит вам
                 незабываемые впечатления и возможность насладиться солнечными
                 ваннами.
               </q-card-section>
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                 Горы и леса: Окруженная величественными горами, Ялта является
                 идеальным местом для любителей пеших прогулок и активного
                 отдыха. Ай-Петри, гора Могаби и другие вершины предлагают
@@ -69,12 +69,12 @@
             label="Историческое наследие"
           >
             <q-card class="q-pa-md">
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                 Дворцы и виллы: Ливадийский дворец, Воронцовский дворец и
                 множество других архитектурных шедевров погружают вас в
                 атмосферу царской России и аристократического прошлого.
               </q-card-section>
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                 Ялтинская конференция: Город знаменит проведением Ялтинской
                 конференции 1945 года, когда здесь встретились лидеры
                 антигитлеровской коалиции для обсуждения послевоенного
@@ -89,12 +89,12 @@
             label="Культурные мероприятия"
           >
             <q-card class="q-pa-md">
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                 Фестивали и концерты: Ялта славится своими музыкальными и
                 культурными фестивалями, привлекающими артистов и зрителей со
                 всего мира.
               </q-card-section>
-              <q-card-section class="text-justify q-py-sm indent">
+              <q-card-section class="text-justify text-h5 q-py-sm indent">
                 Выставки и галереи: Многочисленные выставочные залы и
                 художественные галереи предлагают ознакомиться с произведениями
                 искусства местных и международных мастеров.
@@ -134,7 +134,7 @@
               </div>
             </q-img>
           </a>
-          <q-btn href="/#/SightsPage" class="sights_btn">Смотреть еще</q-btn>
+          <q-btn href="/#/SightsPage" target="blank" class="sights_btn text-white">Смотреть еще</q-btn>
         </div>
       </q-card>
 
@@ -143,7 +143,7 @@
           Пляжи Ялты
         </p>
         <q-card-section>
-          <div class="text-h4 text-justify indent q-pa-md">
+          <div class="text-h5 text-justify indent q-pa-md">
             Ялтинские пляжи – это настоящие оазисы отдыха и удовольствия. Чистый
             песок и мелкая галька, кристально чистая вода Черного моря и удобная
             инфраструктура делают их идеальным местом для семейного отдыха,
@@ -184,7 +184,7 @@
               </div>
             </q-img>
           </a>
-          <q-btn href="#/BeachPage" class="sights_btn">Смотреть еще</q-btn>
+          <q-btn href="#/BeachPage" target="blank" class="sights_btn text-white">Смотреть еще</q-btn>
         </div>
       </q-card>
 

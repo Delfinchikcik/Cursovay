@@ -95,31 +95,31 @@
     </div>
     <q-btn class="chat_icon" color="primary" icon-right="mail" @click="open('right')" />
     </q-page-container>
-    <q-footer elevated class="bg-primary text-white" height-hint="98">
+    <q-footer elevated class="bg-primary text-white">
       <q-toolbar>
         <q-toolbar-title class="flex column items-center justify-center">
           <div class="link_box">
-            <a
+            <btn
               href="https://www.mediayalta.ru/"
               target="blank"
               class="btn_link"
             >
               <img class="logo_link" src="media.png" alt="logo" />
-            </a>
-            <a
+            </btn>
+            <btn
               href="https://vk.com/in_yalta"
               target="blank"
               class="btn_link"
             >
               <img class="logo_link" src="\vk.png" alt="logo" />
-            </a>
-            <a
+            </btn>
+            <btn
               href="https://www.youtube.com/channel/UCN7chNAa8Qq2fxlsHNUy58Q"
               target="blank"
               class="btn_link"
             >
               <img class="logo_link" src="\ютуб.png" alt="logo" />
-            </a>
+            </btn>
           </div>
           <div class="footer_copy">&#xa9; Ялта 2024</div>
         </q-toolbar-title>
@@ -201,15 +201,14 @@ const sendMessage = () => {
   margin: 0 auto;
 }
 .logo_link {
-  width: 45px;
-  height: 40px;
+  width: 25px;
+  height: 20px;
   border-radius: 30%;
-  background-color: #fff;
 }
 .link_box {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 200px;
   padding-top: 10px;
 }
 
