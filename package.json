@@ -2,7 +2,7 @@
   "name": "cursovay",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "productName": "Путеводитель по Ялте",
   "author": "Rustem Topuz <topuzr@mail.ru>",
   "private": true,
   "scripts": {

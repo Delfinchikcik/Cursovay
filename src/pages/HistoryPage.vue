@@ -212,13 +212,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-defineOptions({
-  name: "HistoryPage",
-});
-</script>
-
 <style scoped>
 .my-card {
   border-radius: 14px;
